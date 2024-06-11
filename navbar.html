@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            background-color: #333;
+        }
+        .navbar form {
+            margin: 0;
+            padding: 14px 20px;
+        }
+        .navbar input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .navbar input[type="submit"]:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <form action="home.html" method="get">
+            <input type="submit" value="Home">
+        </form>
+        <form action="about.html" method="get">
+            <input type="submit" value="About">
+        </form>
+        <form action="work.html" method="get">
+            <input type="submit" value="Work">
+        </form>
+        <form action="resume.html" method="get">
+            <input type="submit" value="Resume">
+        </form>
+        <form action="contact.html" method="get">
+            <input type="submit" value="Contact">
+        </form>
+    </div>
+</body>
+</html>
